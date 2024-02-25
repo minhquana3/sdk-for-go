@@ -1,3 +1,5 @@
+**IMPORTANT NOTICE:** This is a forked version of the official Appwrite SDK for Go.
+
 # Appwrite SDK for Go
 
 ![License](https://img.shields.io/github/license/appwrite/sdk-for-go.svg?v=1)
@@ -13,12 +15,16 @@ Appwrite is an open-source backend as a service server that abstract and simplif
 
 ![Appwrite](https://appwrite.io/images/github.png)
 
+## Key Differences
+1. Update all missing User services, such as Update email verification, Update Password, Update email verification.
+2. Implement Account API
+
 ## Installation
 
 To install using `go get`:
 
 ```bash
-go get github.com/appwrite/sdk-for-go
+go get github.com/minhquana3/sdk-for-go 
 ```
 
 ## Contribution
